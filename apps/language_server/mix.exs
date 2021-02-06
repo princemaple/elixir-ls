@@ -27,7 +27,7 @@ defmodule ElixirLS.LanguageServer.Mixfile do
   defp deps do
     [
       {:elixir_ls_utils, in_umbrella: true},
-      {:elixir_sense, github: "elixir-lsp/elixir_sense"},
+      {:elixir_sense, github: "princemaple/elixir_sense", branch: "fuzzy-matching"},
       {:forms, "~> 0.0.1"},
       {:erl2ex, github: "dazuma/erl2ex"},
       {:dialyxir, "~> 1.0.0", runtime: false},

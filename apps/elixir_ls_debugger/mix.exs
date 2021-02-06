@@ -25,7 +25,7 @@ defmodule ElixirLS.Debugger.Mixfile do
 
   defp deps do
     [
-      {:elixir_sense, github: "elixir-lsp/elixir_sense"},
+      {:elixir_sense, github: "princemaple/elixir_sense", branch: "fuzzy-matching"},
       {:elixir_ls_utils, in_umbrella: true}
     ]
   end
